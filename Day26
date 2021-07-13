@@ -1,0 +1,58 @@
+#1
+list1= ['divya','shri','renu','anurag','sidrath']
+print(list(enumerate(list1)))
+
+print(enumerate(list1))
+
+tuple1=('divya','shri','renu','anurag','sidrath')
+print(tuple(enumerate(tuple1)))
+
+#2
+>>> name = ["HP","DELL","LENOVO","APPLE","ASUS"]
+for x in enumerate(name,10):
+    print(x)
+    
+>>> 
+>>> for x in enumerate(name,10):
+	print (x)
+
+	
+(10, 'HP')
+(11, 'DELL')
+(12, 'LENOVO')
+(13, 'APPLE')
+(14, 'ASUS')
+>>> 
+>>> for count , x in enumerate(name,16):
+	y = count,x
+	print(list(y))
+
+	
+[16, 'HP']
+[17, 'DELL']
+[18, 'LENOVO']
+[19, 'APPLE']
+[20, 'ASUS']
+>>> 
+>>> name =("HP","DELL","LENOVO","APPLE","ASUS")
+>>> for x in enumerate (name,101):
+	print(x)
+
+	
+(101, 'HP')
+(102, 'DELL')
+(103, 'LENOVO')
+(104, 'APPLE')
+(105, 'ASUS')
+>>> 
+>>> for count , x in enumerate(name,200):
+	y = count,x
+	print(y)
+
+	
+(200, 'HP')
+(201, 'DELL')
+(202, 'LENOVO')
+(203, 'APPLE')
+(204, 'ASUS')
+>>> 
